@@ -11,6 +11,8 @@
 		7DEC09C629E9D7C100EA5236 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC09C529E9D7C100EA5236 /* ContentView.swift */; };
 		7DEC09C829E9D7C200EA5236 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DEC09C729E9D7C200EA5236 /* Assets.xcassets */; };
 		7DEC09CB29E9D7C200EA5236 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DEC09CA29E9D7C200EA5236 /* Preview Assets.xcassets */; };
+		7DEC09D429E9D84000EA5236 /* Screen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC09D329E9D84000EA5236 /* Screen1.swift */; };
+		7DEC09D629E9D92900EA5236 /* Screen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC09D529E9D92900EA5236 /* Screen2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		7DEC09C529E9D7C100EA5236 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7DEC09C729E9D7C200EA5236 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DEC09CA29E9D7C200EA5236 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7DEC09D329E9D84000EA5236 /* Screen1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen1.swift; sourceTree = "<group>"; };
+		7DEC09D529E9D92900EA5236 /* Screen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		7DEC09C229E9D7C100EA5236 /* CondoConnect */ = {
 			isa = PBXGroup;
 			children = (
+				7DEC09D129E9D82400EA5236 /* Views */,
 				7DEC09C329E9D7C100EA5236 /* CondoConnectApp.swift */,
 				7DEC09C529E9D7C100EA5236 /* ContentView.swift */,
 				7DEC09C729E9D7C200EA5236 /* Assets.xcassets */,
@@ -65,6 +70,23 @@
 				7DEC09CA29E9D7C200EA5236 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7DEC09D129E9D82400EA5236 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7DEC09D229E9D82D00EA5236 /* Tenants */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7DEC09D229E9D82D00EA5236 /* Tenants */ = {
+			isa = PBXGroup;
+			children = (
+				7DEC09D329E9D84000EA5236 /* Screen1.swift */,
+				7DEC09D529E9D92900EA5236 /* Screen2.swift */,
+			);
+			path = Tenants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DEC09D429E9D84000EA5236 /* Screen1.swift in Sources */,
 				7DEC09C629E9D7C100EA5236 /* ContentView.swift in Sources */,
+				7DEC09D629E9D92900EA5236 /* Screen2.swift in Sources */,
 				7DEC09C429E9D7C100EA5236 /* CondoConnectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

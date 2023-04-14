@@ -11,7 +11,16 @@ import SwiftUI
 struct CondoConnectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView{
+                Screen1()
+                    .tabItem {
+                        Label( "Inquilinos", systemImage: "list.clipboard")
+                    }
+                Screen2()
+                    .tabItem{
+                        Label( "Agregar", systemImage: "plus.circle")
+                    }
+            }
         }
     }
 }
